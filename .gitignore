@@ -1,14 +1,42 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+eclipse
+.debris
+
+# idea
+out
+.idea
+*.iws
+*.iml
+*.ipr
+
+.DS_Store
+
+# gradle
+build
 .gradle
-/build/
 
-# Ignore Gradle GUI config
-gradle-app.setting
+# build
+asm
+config
+logs
+options.txt
+libs
+saves
+usernamecache.json
+crash-report
+crash-reports
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
+# other
+run
+lib
+*.iws___jb_tmp___
+*.directory
+classes
+runserver
+buildtotest.bat
 
-# Cache of project
-.gradletasknamecache
-
-# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
-# gradle/wrapper/gradle-wrapper.properties
+src/main/java/train/common/api/TrainsOnClick.java
