@@ -1,5 +1,6 @@
 package train.common.library;
 
+import com.hariesh.tcRMM.engine.locomotive.ElectricClass345;
 import net.minecraft.item.Item;
 import net.minecraft.world.World;
 import train.common.api.AbstractTrains;
@@ -268,7 +269,14 @@ public enum EnumTrains {
 	locoSteam262T("Loco Steam 262T",EntityLocoSteam262T.class, ItemIDs.minecartLocoSteam262T.item,"steam",300,70,0,60,160,300,0.5,0.968,4250,null,15,-3),
 	locoSteam040VB("Loco Steam 040VB",EntityLocoSteam040VB.class, ItemIDs.minecartLocoSteam040vb.item,"steam",200,32,0,40,120,200,0.5,0.968,2500,null,15,-1.1),
 	locoSteamAdler("Loco Steam Adler",EntityLocoSteamAdler.class, ItemIDs.minecartLocoSteamAdler.item,"steam",200,65,0,60,160,300,0.5,0.968,3000,null,15,-1.5),
-	locoSteamSnowPlow("Loco Steam Snow Plow", EntityLocoSteamSnowPlow.class, ItemIDs.minecartLocoSnowPlow.item, "steam, snow plow", 200, 20, 0, 10, 120, 170, 0.7, 0.965, 6850, null, 18, -4.75),;
+	locoSteamSnowPlow("Loco Steam Snow Plow", EntityLocoSteamSnowPlow.class, ItemIDs.minecartLocoSnowPlow.item, "steam, snow plow", 200, 20, 0, 10, 120, 170, 0.7, 0.965, 6850, null, 18, -4.75),
+
+	//tcRMM starts here
+
+	Class345("Class 345", com.hariesh.tcRMM.engine.locomotive.ElectricClass345.class, ItemIDs.minecartClass345.item, "electric", 1500, 290, 0,6, 0, 100, 4, 4, 1000, null, 18, -3),
+	passengerClass345("Class 345 Coach", com.hariesh.tcRMM.engine.rollingstock.Class345Coach.class, ItemIDs.minecartClass345Coach.item, "passenger", 0, 0, 4,0, 0, 0, 0, 0, 0, null, 18, -3),
+	;
+
 
 //String trainType,int MHP,int maxSpeed, double mass, int fuelConsumption, int waterConsumption, int heatingTime, double accelerationRate, double brakeRate, int tankCapacity, String[] colors,
 	

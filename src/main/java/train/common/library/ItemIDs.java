@@ -306,8 +306,14 @@ public enum ItemIDs {
 	tcRailLargeSlopeBallast("ItemTCRail", "item_rail_straight_slope_ballast", 3),
 	tcRailVeryLargeSlopeWood("ItemTCRail", "item_rail_straight_slope_wood", 3),
 	tcRailVeryLargeSlopeGravel("ItemTCRail", "item_rail_straight_slope_gravel", 3),
-	tcRailVeryLargeSlopeBallast("ItemTCRail", "item_rail_straight_slope_ballast", 3);
+	tcRailVeryLargeSlopeBallast("ItemTCRail", "item_rail_straight_slope_ballast", 3),
 
+
+	//tcRMM starts here
+
+	minecartClass345("ItemRollingStock", "class345", 3),
+	minecartClass345Coach("ItemRollingStock","class345coach",3),
+	;
 	public Item item;
 	public String className;
 	public String iconName;

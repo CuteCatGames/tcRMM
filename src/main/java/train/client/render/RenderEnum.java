@@ -1,5 +1,9 @@
 package train.client.render;
 
+
+import com.hariesh.tcRMM.engine.locomotive.ElectricClass345;
+import com.hariesh.tcRMM.models.ModelClass345;
+import com.hariesh.tcRMM.models.ModelClass345Coach;
 import tmt.ModelBase;
 import train.client.render.models.*;
 import train.common.api.AbstractTrains;
@@ -620,7 +624,15 @@ public enum RenderEnum {
 		{
 			add(new double[] { 3.15D, 1.6D, 0.0D });
 		}
-	}, "", null, 0, false);
+	}, "", null, 0, false),
+
+
+	//tcRMM starts here
+
+	ElectricClass345(com.hariesh.tcRMM.engine.locomotive.ElectricClass345.class, new ModelClass345(), "class345", false, new float[] {-1F, 0.15F, 0F}, new float[] { 0F, 180F, 180F }, null, "", 0, null, "", null, 0, false),
+	Class345Coach( com.hariesh.tcRMM.engine.rollingstock.Class345Coach.class, new ModelClass345Coach(),"class345coach", false, new float[] {0F, 0F, 0F},  new float[] { 0F, 180F, 180F },null, "", 0, null, "", null, 0, false),
+
+	;
 
 	private Class<? extends AbstractTrains> entityClass;
 	private ModelBase model;
