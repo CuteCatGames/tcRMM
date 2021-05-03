@@ -1,6 +1,6 @@
-# Traincraft - A mod for Minecraft
+# Traincraft - A mod for Minecraft [RMM Edition]
 
-Here you will find the source code for the **Traincraft 1.7.10 Port**.<br/>
+This is the RMM edition of Traincraft. This is Not the official branch and to only be used by the RMM Server. Here you will find the source code for the **Traincraft 1.7.10 Port**.<br/>
 **Don't ask for release dates or beta builds. Unless you are a developer you should get your builds from [curse](https://minecraft.curseforge.com/projects/traincraft). <br/>Regarding new features/behavior changes, or if you have found any bugs, please submit a new issue to the issue tracker for it, or add your findings to an existing issue if someone else has already made one. This helps keep everything organized while saving time and effort.**
 
 ## Index
